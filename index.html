@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #first_heading{
+            text-align: center;color: white;
+        }
+        
+        #first_row{
+            background-color:rgb(0, 0, 37) ;
+            text-align: center;color: white;
+        }
+        #second_row{
+             background-color: aquamarine;
+        }
+
+        button{
+            display: block;
+            background-color: blue;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            transition: 1s;
+
+        }
+        button:hover{
+            
+            background-color: rgb(10, 10, 65);
+            color: black;
+            width:100px
+        }
+        #sign_up{
+            display: block;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            transition: 500ms;
+            text-align: center;
+
+        }
+        #sign_up:hover{
+            background-color: red;
+            width:100px;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" height="100%">
+        <!-- **First Part Of Website Start**-->
+        <tr id="first_row">
+            <td width="100%" height="100%">
+                <form>
+                <table width="100%" height="100%"> 
+                    <tr id="back_color">
+                        <td style="width: 80%;"><h1 id="First_heading">facebook</h1></td>
+                        
+                            <td  ><form><label for="email">Email</label><br><input type="email" id="email"><br></td>
+                         <td><label for="password">Password</label><br><input type="password" id="password"><br></td>
+                        <td><button>Login</button><br></td>
+                        
+                    </tr>
+                </table>
+                </form>
+            </td>
+        </tr>
+        <!-- **First Part Of Website End **-->
+        <tr id="second_row">
+            <td width="100%" heigh="100%">
+                <form>
+                <table width="100%" heigh="100%">
+                    <tr>
+                        <td width="50%" align="center">
+                            <img src="pp.png">
+
+                        </td>
+                        <td width="50%">
+                            <h1>Create an account</h1>
+                            Its free and always be<br>
+                            <input width="50px" type="text" placeholder="first name">
+                            <input width="50ps" type="text" placeholder="surname">
+                            <br><br><input type="email" placeholder="email" ><input type="password"placeholder="password"><br><br>
+                            <h1>Birth</h1>
+                            <br><br>
+                            <!-- Select Month -->
+                            <select>
+                                <option>Select Month</option>
+                            <option>January</option>
+                            <option>Feb</option>
+                            <option>Mar</option>
+                            <option>Apr</option>
+                            <option>May</option>
+                            <option>Jun</option>
+                            <option>Jul</option>
+                            <option>Aug</option>
+                            <option>Sep</option>
+                            <option>Oct</option>
+                            <option>Nov</option>
+                            <option>Dec</option>
+                            </select>
+                            <!-- Select Month End -->
+                            <!-- Select Date -->
+                            <select>
+                                <option>Select Date</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                            <!-- Select Date End -->
+                            <!-- Select year -->
+                            <select>
+                                <option>Select Year</option>
+                                <option>1990</option>
+                                <option>1991</option>
+                                <option>1992</option>
+                                <option>1993</option>
+                                <option>1994</option>
+                                <option>1995</option>
+                                
+                                <option>1996</option>
+                                <option>1997</option>
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                
+                            </select>
+                             <!--Select Year End  -->
+                            <br><br>
+                            <!-- Select Gender -->
+                            <input type="radio" id="Male" name="status">
+                            <label For="Male">Male</label>
+                            <input type="radio" id="Female" name="status">
+                            <label for="Female">Female</label><br><br>
+                            <!-- Select Gender End -->
+                            <p>
+                                People use who our service may have uploaded your contact information to <br>facebook<a href="#">Learn more</a>
+                                <br><br>
+                                By clicking sign up you agree to our <a href="#">TermsPrivacy Policy</a>and <a href="#">Cookies policy</a><br>you may recieve SMS and notifications from us and otp at any time<br><br>
+                                <button id="sign_up">Sign Up</button>
+                            </p>
+                        </td>
+
+                    </tr>
+                </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
